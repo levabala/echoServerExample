@@ -6,7 +6,7 @@ button.addEventListener("click", () => {
 function callServer() {
   const xhr = new XMLHttpRequest();
 
-  xhr.open("POST", "?request=runBat1", false);
+  xhr.open("POST", "/runBat", false);
   xhr.send();
 
   console.log(xhr.status);
